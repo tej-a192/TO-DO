@@ -1,15 +1,10 @@
 import React from 'react'
 import {Routes, Route} from "react-router-dom"
-import Home from './components/Home'
+import Todo from './pages/todo'
 const App = () => {
   return (
     <div>
-      <Home/>
-
-      {/* <Routes>
-        <Route path='/login' element={}/>
-        <Route path='/signuo' element={}/>
-      </Routes> */}
+      <Todo/>
     </div>
   )
 }
